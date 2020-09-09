@@ -1,5 +1,4 @@
 #!/bin/bash
-echo "This is the absolute path of the current working directory"
 pwd
 
 
