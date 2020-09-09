@@ -1,0 +1,1 @@
+With this project we learn the basics of creating scripts.
