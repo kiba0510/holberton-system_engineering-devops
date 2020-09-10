@@ -1,2 +1,2 @@
 #!/bin/bash
-chgrp --change holberton hello 
+chgrp -c holberton hello 
