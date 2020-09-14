@@ -1,1 +1,2 @@
-cat -A passwd 
+#!/bin/bash
+cat /ect/passwd 
