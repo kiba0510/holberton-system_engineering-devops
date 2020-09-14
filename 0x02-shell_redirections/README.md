@@ -1,0 +1,1 @@
+With this proyect we learn about redirections in the shell and how to combo a command.
