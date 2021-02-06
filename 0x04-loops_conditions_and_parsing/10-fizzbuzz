@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+#
+
+a=1
+while [ $a -lt 101 ]
+do
+	if [ $((a%15 )) -eq 0 ]
+	then
+		echo "FizzBuzz"
+	elif [ $((a%5)) -eq 0 ]
+	then
+		echo "Buzz"
+	elif [ $((a%3)) -eq 0 ]
+	then
+		echo "Fizz"
+	else
+		echo "$a"
+	fi
+	a=$(( a+1))
+done
