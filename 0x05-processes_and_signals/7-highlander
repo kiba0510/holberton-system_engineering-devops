@@ -2,14 +2,8 @@
 #Bash script that displays:
 #To infinity and beyond indefinitely
 #I am invincible!!! when receiving a SIGTERM signal
-
-function ctrlc()
-{
-    echo "I am invincible"
-}
-trap ctrlc SIGTERM
-while true
-do
-    echo "To infinity and beyond"
-    sleep 2
+trap "echo 'I am invincible!!!'" SIGTERM
+while true; do
+echo "To infinity and beyond"
+sleep 2
 done
