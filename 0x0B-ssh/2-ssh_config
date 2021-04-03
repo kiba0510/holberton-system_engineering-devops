@@ -1,0 +1,7 @@
+Host *
+    SendEnv LANG LC_*
+    HashKnownHost yes
+    GSSAPIAuthentication yes
+    GSSAPIDelegateCredentials no
+    IdentifyFile ~/.ssh/holberton
+    PasswordAuthentication no
